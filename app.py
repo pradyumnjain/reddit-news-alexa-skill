@@ -39,7 +39,7 @@ def start_skill():
 
 @ask.intent("yesintent")
 def share_headlines():
-	headlines = get_headlines()
+	headlines = get_headline()
 	headline_msg = 'to get you started here are some facts {}'.format(headlines)
 	return statement(headline_msg)
 
