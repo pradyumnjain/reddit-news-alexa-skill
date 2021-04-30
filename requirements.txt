@@ -19,7 +19,7 @@ PyYAML==3.12
 requests==2.22.0
 six==1.11.0
 Unidecode==1.1.1
-urllib3==1.25.7
+urllib3==1.25.8
 Werkzeug==0.16.0
 gunicorn==19.9.0
 
